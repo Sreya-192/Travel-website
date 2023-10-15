@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+         *{
+            margin:0;
+            padding:0;
+        }
+        #navbar{
+            height:40px;
+            background-color: rgba(25, 25, 26);
+            padding-top: 20px;
+            -webkit-text-fill-color: white;
+        }
+        a{
+            margin-right: 20px;
+            text-decoration: none;
+            -webkit-text-fill-color: white;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .search-input{
+            height: 20px;
+        }
+        .border{
+            border: 2px solid transparent;
+            border-radius: 30px;
+        }
+        .border:hover{
+            border: 3px solid white;
+        }
+        #info{
+            border:1px solid;
+            border-color:rgba(248, 243, 243,0.5) ;
+            padding:19px;
+            width:770px;
+            height: 3oopx;
+            margin-top: 90px;
+            background-color: rgba(248, 243, 243,0.5);
+            float:right;
+              
+        }
+        #bg{
+            height: 500px;
+            width: 1355px;
+            background-image: url("flight_pic.jpg");
+            background-size: cover;
+
+        }
+        #ft{
+            margin-left: 50px;
+        }
+        #p{
+            padding-top: 13%;
+            margin-left: 3%;
+            font-size: 200%;
+            color: white;
+            font-family: Helvetica;
+        }
+        #p1{
+            padding: 15px;
+            color:white;
+            text-align: center;
+            font-size: small;
+        }
+        #sf{
+            background-color: rgb(38, 114, 228);
+            -webkit-text-fill-color: white;
+        }
+        footer{
+            padding:30px;
+        }
+        #p2{
+            top:30px;
+        }
+        #p3{
+            width:200px;
+        }
+        #bdy{
+            width:1355px;
+        }
+        #flex{
+            display:flex;
+            flex-direction:row;
+            justify-content: space-between;
+            width:900px;
+            border:1px white solid;
+            margin: 0 auto;
+        }
+        .flex-item{
+            width:500px;
+            height:100px;
+            border:1px White solid;
+            margin-left: 40px;
+
+        }
+        #icon{
+            background-image: url("magnifying-glass-solid.svg");
+        }
+    </style>
+</head>
+<body>
+    <div id="bdy">
+    <div id="navbar">
+        <a style="margin-right: 200px; margin-left: 20px;"href="#" id="logo"> Fly Airlines </a>
+        <a href="file:///D:/sreya/home%20page.html">Flights</a>
+        <a href="file:///D:/sreya/account.html#">Trains</a>
+        <a href="file:///D:/sreya/About%20page.html">Buses</a>
+        <a href="#">Hotels</a>
+        <a href="#">Contact us</a>
+        <input style="margin-right: 310px; -webkit-text-fill-color: black;" placeholder="search" class="search-input">
+
+    </div>
+    <div id="bg">
+    <div id="info">
+       Form &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp; To
+       <br>
+       <input type="text" id="txt" placeholder="City or Airport">
+       <input style="margin-left:80px ;" type="text" id="txt" placeholder="City or Airport">
+       <br><br>
+       Depart&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp; Return
+       <br>
+       <input type="Date" id="txt" >
+       <input style="margin-left:140px ;" type="Date" id="txt" >
+       <br><br>
+       Adults&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Children&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;Return
+       <br>
+       <input type="number" id="txt" >
+       <input style="margin-left:50px ;" type="number" id="txt" >
+       <input style="margin-left:50px ;" type="number" id="txt" >
+       <br><br>
+       Cabin
+       <c id="Cabin">Cabin</c>
+        <br>
+        <select id="Cabin">
+            <option
+            value="Economy">Economy</option>
+            <option
+            value="Business Class">Business Class</option>
+        </select>
+        <br><br><br>
+        <button id="sf">Search Flights</button>
+    </div>
+     <p id="p"> <b>THE SKY IS WAITING FOR YOU</b></p>
+     <p id="p1">With Fly Airines you can book tickets for your favourite destination.
+     Thanks for choosing us and for travelling with us. Fly safely</p>
+    </div>
+    <footer>
+        <div id="flex">
+            <div class="flex-item">
+                <div id="icon"></div>
+                <p id="p2">Search and Compare</p><br>
+
+                <p id="p3">We monitor the best deals,searching and 
+                comparing prices powered by world's biggest flight companies 
+                and display the best options  </p>
+            </div>
+            <div class="flex-item">
+                <p id="p2">Top Airlines</p><br>
+                <p id="p3">We work with many comapnies so that you
+                can have huge choice of airlines destination,promotions and discounts</p>
+            </div>
+
+            <div class="flex-item">
+                <p id="p2">Best Price guarantee</p><br>
+                <p id="p3">Make huge saving with no bookinf fee, additional taxes or hidden
+                    costs. Compare top flight companies with single search
+                </p>
+            </div>
+    </footer>
+    </div>
+</body>
+</html>
