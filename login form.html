@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title><login form></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        *{
+            -webkit-text-fill-color: black;
+        }
+        #login{
+            text-align: center;
+            padding-top: 100px;
+        }
+        #uname{
+            width: 300px;
+            height: 30px;
+        }
+        #passwrd{
+            width: 300px;
+            height: 30px;
+        }
+        #log{
+            width: 300px;
+            height: 30px;
+            background-color: rgb(36, 160, 218);
+        }
+        #p1{
+            -webkit-text-fill-color:rgb(5,11,37);
+            text-align: center;
+        }
+        #p1:hover{
+            text-decoration: underline;
+        }
+        #link{
+            -webkit-text-fill-color:rgb(5, 11, 37);
+            text-align:center;
+        }
+        #link:hover{
+            text-decoration: underline;
+        }
+        
+        #bg{
+            height: 800px;
+            width: 1355px;
+            background-image: url("signup_login_image.jpg");
+            background-size: cover;
+        }
+        #content{
+            text-align: center;
+            border: 1px solid black;
+            width: 500px;
+            height: 450px;
+            margin-left: 400px;
+            position: absolute;
+            top: 150px;
+            background-color: rgb(106, 172, 233,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div id="bg"></div>
+    <section class="container forms">
+        <div class="form login">
+            <div id="content">
+                <h2 id="login">Login</h2>
+                <form action="#">
+                <center><input type="text" id="uname" placeholder="Username or email"></center>
+                <br>
+                <center><input type="password" id="passwrd" placeholder="password"></center>
+                <p id="p3"><input type="checkbox"> Remember me</p>
+                <center><button id="log">Login</button></center>
+                </form>
+                <br>
+                <center><a href="#" id="p1">Forget your password?</a></center>
+                <p id="link">
+                    <a id="link" href="file:///D:/sreya/signup.html" id="linkCreateAccount"> Don't have any account? Create account</a>
+                </p>
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+</html>
