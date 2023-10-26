@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>hotel</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            -webkit-text-fill-color: black;
+        }
+        #box{
+            height: 537px;
+            width: 1355px;
+            background-image: url("hotel_image.jpg");
+            background-size:cover;
+        }
+        #navbar{
+            height:40px;
+            background-color: rgb(8, 8, 8);
+            padding-top: 20px;
+            -webkit-text-fill-color: white;
+        }
+        a{
+            font-size: xx-large;
+            font-family: sans-serif;
+            margin-right: 20px;
+            -webkit-text-fill-color: white;
+        }
+        .border{
+            border: 2px solid transparent;
+            border-radius: 30px;
+        }
+        .border:hover{
+            border: 3px solid white;
+        }
+        #subnav{
+            background-color:rgb(255, 255, 255);
+            position: fixed;
+            bottom: 100px;
+            margin-left: 20%;
+            margin-right: 80px;
+            color:white;
+            padding:20px
+        }
+        #p1{
+            padding:50px;
+            margin-left:150px;
+            color:rgb(6, 6, 7);
+            font-size:xx-large;
+        }
+        #p2{
+            padding-top: 90px;
+            text-align: center;
+            font-size: larger;
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+    <div id="navbar">
+        <center><a id="logo"> Dream Travel</a></center>
+
+        <div id="subnav">
+            Check in
+           <input type="date" id="in">
+           Check Out
+           <input type="date" id="Out">
+           <input type="number" id="type" placeholder="Adults">
+           <input type="number" id="type" placeholder="Children">
+           <button>Book Now</button>
+        </div>
+    </div>
+    <p id="p1"><b>SPEND QUALITY 
+        <br>TIME WITH US</b></p>
+    </div>
+    <footer>
+        <P id="p2"> OUR ROOMS</p>
+    </footer>
+</body>
+</html>
